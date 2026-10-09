@@ -15,5 +15,78 @@
     "question": "Who created Python?",
     "expected_facts": [],
     "should_refuse": true
+  },
+  {
+    "id": "python_lists_003",
+    "context": "Python lists are mutable sequences. A list can contain items of different data types.",
+    "question": "Can a Python list contain different data types?",
+    "expected_facts": [
+      "yes",
+      "different data types"
+    ],
+    "should_refuse": false
+  },
+  {
+    "id": "python_lists_004",
+    "context": "Python lists are ordered collections. Each item has a position called an index.",
+    "question": "Are Python lists ordered?",
+    "expected_facts": [
+      "yes",
+      "ordered"
+    ],
+    "should_refuse": false
+  },
+  {
+    "id": "python_lists_005",
+    "context": "Python lists are ordered collections. Each item has a position called an index.",
+    "question": "What is the capital of France?",
+    "expected_facts": [],
+    "should_refuse": true
+  },
+  {
+    "id": "python_lists_006",
+    "context": "List indexing starts at zero in Python. The first element therefore has index 0.",
+    "question": "What index does the first item in a Python list have?",
+    "expected_facts": [
+      "0"
+    ],
+    "should_refuse": false
+  },
+  {
+    "id": "python_lists_007",
+    "context": "The append() method adds one item to the end of a Python list.",
+    "question": "What does append() do to a Python list?",
+    "expected_facts": [
+      "adds",
+      "end"
+    ],
+    "should_refuse": false
+  },
+  {
+    "id": "python_lists_008",
+    "context": "The pop() method removes and returns an item from a Python list. By default, it removes the last item.",
+    "question": "What does pop() return?",
+    "expected_facts": [
+      "item"
+    ],
+    "should_refuse": false
+  },
+  {
+    "id": "python_lists_009",
+    "context": "The len() function returns the number of items in a Python list.",
+    "question": "How do you find the number of items in a Python list?",
+    "expected_facts": [
+      "len"
+    ],
+    "should_refuse": false
+  },
+  {
+    "id": "python_lists_010",
+    "context": "The len() function returns the number of items in a Python list.",
+    "question": "Does len() sort a Python list?",
+    "expected_facts": [
+      "no"
+    ],
+    "should_refuse": false
   }
 ]
