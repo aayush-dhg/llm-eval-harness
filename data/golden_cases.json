@@ -1,0 +1,19 @@
+[
+  {
+    "id": "python_lists_001",
+    "context": "Python lists are mutable sequences. This means their contents can be changed after the list is created.",
+    "question": "Can a Python list be modified after creation?",
+    "expected_facts": [
+      "yes",
+      "modified after creation"
+    ],
+    "should_refuse": false
+  },
+  {
+    "id": "python_lists_002",
+    "context": "Python lists are mutable sequences. This means their contents can be changed after the list is created.",
+    "question": "Who created Python?",
+    "expected_facts": [],
+    "should_refuse": true
+  }
+]
